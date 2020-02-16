@@ -1,0 +1,5 @@
+---
+ansible_provision:
+  own_repository: https://github.com/codeenigma/ansible-provision.git
+  config_repository: https://github.com/codeenigma/ce-dev-ansible-provision-config.git
+
