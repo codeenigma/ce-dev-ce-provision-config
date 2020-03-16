@@ -2,6 +2,16 @@
 ansible_provision:
   own_repository: https://github.com/codeenigma/ansible-provision.git
   config_repository: https://github.com/codeenigma/ce-dev-ansible-provision-config.git
-
-deploy_user:
   username: ce-dev
+  groups: []
+user_provision:
+  username: ce-dev
+  utility_username: ce-dev
+  groups: []
+ansible_deploy:
+  username: ce-dev
+  utility_username: ce-dev
+  groups: []
+user_deploy:
+  username: ce-dev
+  groups: []
