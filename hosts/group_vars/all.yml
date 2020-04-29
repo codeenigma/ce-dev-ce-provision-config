@@ -1,7 +1,9 @@
 ---
 ansible_provision:
   own_repository: https://github.com/codeenigma/ansible-provision.git
+  own_repository_branch: 1.x
   config_repository: https://github.com/codeenigma/ce-dev-ansible-provision-config.git
+  config_repository_branch: 1.x
   username: ce-dev
   groups: []
 user_provision:
