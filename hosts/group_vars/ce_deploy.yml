@@ -1,0 +1,4 @@
+ce_deploy:
+  username: ce-dev
+  utility_username: ce-dev
+  groups: []
